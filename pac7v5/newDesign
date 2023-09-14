@@ -1,0 +1,13 @@
+# *********************************************************************************************************************************************************************************************************
+# *   CHANGES BY AIDAN PURICELLI                                                                                                                                                                          * 
+# *   (PSEUDOCODE)                                                                                                                                                                                        *  
+# *   intro_date = "2013-10-22"                                                                     |  After analyzing the csv file, the new set of balls seems to be introduced on this date             *
+# *   all_draws = total_draws()                                                                     |  Function to find total number of draws                                                             *
+# *   new_ball_draws = draws_57_to_77()                                                             |  Function to find number of times new balls were drawn                                              *
+# *   new_balls_factor = new_ball_draws / all_draws                                                 |  Calculate the percent of draws that were new balls                                                 *  
+# *   def adjusted_average():                                                                       |  Define function for calculating adjusted average                                                   *       
+# *         hist_avg = get_hist_avg                                                                 |  Calculate historical average                                                                       *
+# *         new_ball_avg = get_new_avg                                                              |  Calculate average with the new balls                                                               *     
+# *         adjust_avg = (hist_avg * (1 - new_balls_factor )) + (new_ball_avg * new_balls_factor)   |  Calculate  adjusted average with calculated averages and weighting factor of introducing new balls *
+# *                                                                                                                                                                                                       *
+# *********************************************************************************************************************************************************************************************************
